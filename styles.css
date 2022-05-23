@@ -29,6 +29,10 @@
   width: 180px;
 }
 
+.nav-link:hover {
+  color: #14ffec;
+}
+
 .navbar {
   z-index: 1;
 }
