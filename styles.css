@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
 :root {
   --primary-color: #323232;
   --border-color: #14ffec;
@@ -10,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main-container {
@@ -30,7 +33,7 @@
 }
 
 .nav-link:hover {
-  color: #14ffec;
+  color: var(--border-color);
 }
 
 .navbar {
@@ -101,7 +104,7 @@
 .hero-img {
   width: 250px;
   height: 250px;
-  opacity: 0.8;
+  opacity: 0.9;
   border: 5px solid var(--border-color);
   border-radius: 50%;
   background-color: var(--primary-color);
@@ -173,6 +176,10 @@
 
 .projects-container {
   background: url(images/leaves.jpg) center / cover no-repeat;
+}
+
+.container-project {
+  height: 100vh;
 }
 
 .card {
