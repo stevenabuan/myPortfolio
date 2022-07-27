@@ -93,30 +93,20 @@
           <div class="col-md-6 about-me-text pb-lg-5 pb-0 order-first order-lg-last">
             <p class="fs-4 pt-3">About me</p>
             <p>
-              Hey there! My name is Steven and I'm a front-end web developer.
-              I love designing cool and exciting webpage's layout. I am
-              focusing now on web development using mainly HTML5, CSS3,
-              Javascript and Bootstrap5 for enhanced designs. I'm currently
-              exploring other frameworks or libraries to enhance my designing
-              skills.
-            </p>
-            <p>
-              Currently, I am attending the Kodego bootcamp to learn more with
-              coding specially with the fundamentals that are very crucial for
-              me to acquire. As of now, I'm also using other technologies such
-              as node.js and git to enhace my skills in which I will showcase
-              some of my projects below.
+              Hey there! My name is Steven and I'm a front-end web developer. I love designing webpages. I'm focusing now on the front-end using React Js with Material UI/Bootstrap. I'm currently exploring other technologies to enhance my skills in which I will showcase my projects below. 
             </p>
             <p class="technologies-title">
               Here are the technologies I've been working with recently:
             </p>
             <div class="technologies">
               <div>
+                <i class="fa-brands fa-react fa-2x pe-2"></i>
+                <i class="fa-brands fa-vuejs fa-2x pe-2"></i>
+                <i class="fa-brands fa-node-js fa-2x pe-2"></i>
                 <i class="fa-brands fa-html5 fa-2x pe-2"></i>
                 <i class="fa-brands fa-css3-alt fa-2x pe-2"></i>
                 <i class="fa-brands fa-bootstrap fa-2x pe-2"></i>
                 <i class="fa-brands fa-js-square fa-2x pe-2"></i>
-                <i class="fa-brands fa-node-js fa-2x pe-2"></i>
                 <i class="fa-brands fa-git-alt fa-2x pe-2"></i>
                 <i class="fa-brands fa-github fa-2x pe-2"></i>
               </div>
@@ -127,9 +117,46 @@
     </div>
 
     <div class="container-fluid projects-container">
-      <div class="container container">
-        <div class="row py-md-5" id="portfolio">
+      <div class="container container-project">
+        <div class="row pb-md-5 " id="portfolio">
           <div class="col-lg-6 px-0 mt-5">
+            <div class="card mb-0 main-proj-container">
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              > 
+                <p class="fw-bold bg-warning position-absolute top-0 end-0 main-proj">Main Project</p>
+                
+                <p class="card-title text-center fs-4 d-inline">Kumpas Gallery</p>
+                <p class="card-text text-center fst-italic">
+                  Dynamic website using Node js(express) with MongoDB hosted in Heroku.
+                </p>
+                <div class="technologies text-center">
+                  <div>
+                    <i class="fa-brands fa-react fa-html5 fa-2x pe-2"></i>
+                    <i class="fa-brands fa-brands-card fa-html5 fa-2x pe-2"></i>
+                    <i
+                      class="fa-brands fa-brands-card fa-css3-alt fa-2x pe-2"
+                    ></i>
+                    <i
+                      class="fa-brands fa-brands-card fa-bootstrap fa-2x pe-2"
+                    ></i>
+                    <i
+                      class="fa-brands fa-brands-card fa-js-square fa-2x pe-2"
+                    ></i>
+                    <i
+                      class="fa-brands fa-brands-card fa-node-js fa-2x pe-2"
+                    ></i>
+                    <i
+                      class="fa-brands fa-brands-card fa-git-alt fa-2x pe-2"
+                    ></i>
+                    <i class="fa-solid fa-database fa-brands-card fa-2x pe-2"></i>
+                  </div>
+                </div>
+                <a href="https://kumpas.herokuapp.com/" target="_blank" class="btn text-decoration-none fs-4 mt-3 border p-3 view-btn">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-0 mt-lg-5">
             <div class="card mb-0 main-proj-container">
               <div
                 class="card-body d-flex flex-column justify-content-center align-items-center"
@@ -167,36 +194,6 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-0 mt-lg-5 mt-sm-0">
-            <div class="card mb-0">
-              <div
-                class="card-body d-flex flex-column justify-content-center align-items-center"
-              >
-                <p class="card-title text-center fs-4">Menu List</p>
-                <p class="card-text text-center fst-italic">
-                  Menu list using bootstrap-5.
-                </p>
-                <div class="technologies text-center">
-                  <div>
-                    <i class="fa-brands fa-brands-card fa-html5 fa-2x pe-2"></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-bootstrap fa-2x pe-2"
-                    ></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-js-square fa-2x pe-2"
-                    ></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-node-js fa-2x pe-2"
-                    ></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-github fa-2x pe-2"
-                    ></i>
-                  </div>
-                </div>
-                <a href="https://stevenabuan.github.io/menuList/" target="_blank" class="btn text-decoration-none fs-4 mt-3 border p-3 view-btn">View Project</a>
-              </div>
-            </div>
-          </div>
           <div class="col-lg-6 px-0 mb-lg-5 mb-sm-0">
             <div class="card">
               <div
@@ -218,33 +215,6 @@
                   </div>
                 </div>
                 <a href="https://stevenabuan.github.io/tableOfElements/" target="_blank" class="btn text-decoration-none fs-4 mt-3 border p-3 view-btn">View Project</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 px-0 mb-5">
-            <div class="card mb-5">
-              <div
-                class="card-body d-flex flex-column justify-content-center align-items-center login-container"
-              >
-                <p class="card-title text-center fs-4">Login Form</p>
-                <p class="card-text text-center fst-italic">
-                  Log-in page using HTMl5 CSS3.
-                </p>
-                <div class="technologies text-center">
-                  <div>
-                    <i class="fa-brands fa-brands-card fa-html5 fa-2x pe-2"></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-css3-alt fa-2x pe-2"
-                    ></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-js-square fa-2x pe-2"
-                    ></i>
-                    <i
-                      class="fa-brands fa-brands-card fa-github fa-2x pe-2"
-                    ></i>
-                  </div>
-                </div>
-                <a href="https://stevenabuan.github.io/loginForm/" target="_blank" class="btn text-decoration-none fs-4 mt-3 border p-3 view-btn">View Project</a>
               </div>
             </div>
           </div>

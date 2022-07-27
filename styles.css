@@ -178,10 +178,6 @@
   background: url(images/leaves.jpg) center / cover no-repeat;
 }
 
-.container-project {
-  height: 100vh;
-}
-
 .card {
   border: 2px solid var(--border-color);
   border-radius: 0;
